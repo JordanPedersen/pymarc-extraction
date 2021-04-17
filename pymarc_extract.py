@@ -4,10 +4,11 @@ import sys, csv, traceback, warnings, logging, re
 import pandas as pd
 
 '''
+To run this program, open command line and type python3 pymarc_extract.py if you've saved it with this file name.
 Print the help prompt.
 '''
 def printHelp(exitcode=127):
-    print('pymarc_extract_withvariables.py <inputmarc> <outputtxt>')
+    print('pymarc_extracts.py <inputmarc> <outputtxt>')
     sys.exit(exitcode)
 
 def extractsub():
