@@ -7,5 +7,8 @@ These functions can be used to input a marc file and extract specific fields, ou
 ## A Note about efficiency
 Without a doubt there will be more efficient, or generally better ways to do this work. I'm still learning. If you use these functions and would like to share changes you make, feel free to comment in an issue or PR.
 
+## Files included
+* pymarc_extract.py - this file can be used to input a marc file and extract specific fields, outputting them to a csv file. User is prompted to provide the marc file name and the output file name.
+
 ## Thank Yous
 This wouldn't have been completed without borrowing code from by @rwangca (who also pulled late nights fixing my errors), @dicksonlaw583 , and the Carpentries pymarc lesson (https://carpentries-incubator.github.io/pymarc_basics/)
