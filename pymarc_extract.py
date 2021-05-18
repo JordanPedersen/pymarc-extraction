@@ -7,7 +7,7 @@ import pandas as pd
 Print the help prompt.
 '''
 def printHelp(exitcode=127):
-    print('pymarc_extract_withvariables.py <inputmarc> <outputtxt>')
+    print('pymarc_extract.py <inputmarc> <outputtxt>')
     sys.exit(exitcode)
 
 def extractsub():
