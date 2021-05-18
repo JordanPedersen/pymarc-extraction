@@ -3,13 +3,6 @@ from pymarc import MARCReader
 import sys, csv, traceback, warnings, logging, re
 import pandas as pd
 
-'''
-Print the help prompt.
-'''
-def printHelp(exitcode=127):
-    print('pymarc_extract.py <inputmarc> <outputtxt>')
-    sys.exit(exitcode)
-
 def extractsub():
     #ask user to define the variables for inputmarc file and outputtxt file
     inputmarc = input("Insert 'filename.mrc' Here >>> ")   
